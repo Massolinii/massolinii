@@ -1,20 +1,18 @@
 import React from "react";
 import Link from "next/link";
 
-import "../../styles/navbar.css";
-
 export default function Navbar() {
   return (
-    <nav className="flex w-full bg-violet-dark sticky top-0 border-b border-violet">
+    <nav className="grid grid-cols-3 w-full bg-violet-dark border-b border-violet">
       {/* Logo a sinistra */}
-      <div className="flex-grow px-4 py-6 box-border">
+      <div className="flex-grow px-4 py-6 border-r border-violet">
         <Link href="/">
           <p>Logo</p>
         </Link>
       </div>
 
       {/* Links al centro */}
-      <div className="flex justify-between items-center flex-grow px-10 py-6 box-border border-l border-violet">
+      <div className="flex justify-between items-center flex-grow px-10 py-6 border-r border-violet">
         <Link href="/about">
           <p>About Me</p>
         </Link>
@@ -27,7 +25,7 @@ export default function Navbar() {
       </div>
 
       {/* Link GitHub a destra */}
-      <div className="flex justify-end flex-grow px-4 py-6 box-border border-l border-violet">
+      <div className="flex justify-end flex-grow px-4 py-6">
         <Link
           href="https://github.com/Massolinii"
           target="_blank"
