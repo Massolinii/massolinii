@@ -21,11 +21,14 @@ const config: Config = {
         },
         'violet': {
           DEFAULT: '#6752a6',
-          'dark': '#44366D'
+          'dark': '#191429'
         },
         'space': {
           DEFAULT: '#151e4b',
           'dark': '#0d1330'
+        },
+        'background': {
+          DEFAULT: '#070A1E',
         },
       }
     },
