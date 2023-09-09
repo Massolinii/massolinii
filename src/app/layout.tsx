@@ -1,8 +1,7 @@
 import "./globals.css";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-// These styles apply to every route in the application
-import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
@@ -20,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-space-dark text-slate-100`}>
         <Navbar />
-        {children}
+        <div className=" container mx-auto p-4">{children}</div>
         <Footer />
       </body>
     </html>

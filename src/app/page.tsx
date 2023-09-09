@@ -1,14 +1,11 @@
-import Link from "next/link";
-
-export default function Page() {
+export default function Home() {
   return (
-    <>
-      <div className="container mx-auto px-4">
-        <h1>Hello word</h1>
+    <div>
+      <h1>Hello world</h1>
+      <div className="bg-floral">
         <p>This is a content to make our page longer</p>
-        <div className="w-full h-screen bg-pink-300"></div>
-        <p>Lorem Ipsum is simply dummy text ...</p>
       </div>
-    </>
+      <h1>Bye world</h1>
+    </div>
   );
 }

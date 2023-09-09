@@ -8,13 +8,29 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'lavender': {
+          DEFAULT: '#eae1f5',
+          'dark': '#d4c2eb'
+        },
+        'floral': {
+          DEFAULT: '#a379c9',
+          'dark': '#8850b9'
+        },
+        'violet': {
+          DEFAULT: '#6752a6',
+          'dark': '#44366D'
+        },
+        'space': {
+          DEFAULT: '#151e4b',
+          'dark': '#0d1330'
+        },
+      }
     },
   },
   plugins: [],
 }
+
 export default config
