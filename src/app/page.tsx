@@ -1,4 +1,5 @@
 "use client";
+import Eye from "@/components/eye/Eye";
 import "../styles/Home.css";
 
 export default function Home() {
@@ -8,8 +9,10 @@ export default function Home() {
         About Me
       </div>
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1">
-        <div className="relative overlay overlay-blue eye-section home-section border border-space flex justify-center items-center">
-          2
+        <div className="relative overlay overlay-white eye-section home-section border border-space flex justify-center items-center">
+          <div className="eye-container flex justify-center items-center">
+            <Eye />
+          </div>
         </div>
         <div className="relative overlay overlay-yellow contact-section home-section border border-space flex justify-center items-center">
           Contact
