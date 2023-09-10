@@ -25,7 +25,9 @@ export default function RootLayout({
         <div className="flex-shrink-0">
           <Navbar />
         </div>
-        <div className="flex-grow overflow-y-auto">{children}</div>
+        <div className="flex-grow overflow-y-auto flex flex-col justify-between">
+          {children}
+        </div>
         <div className="flex-shrink-0">
           <Footer />
         </div>
