@@ -28,7 +28,7 @@ const config: Config = {
           'dark': '#0d1330'
         },
         'background': {
-          DEFAULT: '#070A1E',
+          DEFAULT: '#090E2C',
         },
       }
     },
