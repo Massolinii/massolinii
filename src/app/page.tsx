@@ -5,7 +5,7 @@ import "../styles/Home.css";
 
 export default function Home() {
   return (
-    <main className="home-section grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center">
+    <main className="home-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center">
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1">
         <div
           className={`relative overlay overlay-yellow name-section home-section border border-space flex justify-center items-center flex-col p-5 title-slide-in-left`}
@@ -27,7 +27,7 @@ export default function Home() {
           className={`relative overlay overlay-red about-section home-section border border-space flex justify-center items-center title-slide-in-left`}
         >
           <svg
-            className="arrow hidden md:visible arrow-left subtitle-slide-in-right-rotate"
+            className="arrow arrow-left subtitle-slide-in-right-rotate"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -43,7 +43,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="hidden md:flex relative eye-section home-section border border-space md:col-span-1 lg:col-span-1 flex justify-center items-center z-50">
+      <div className="hidden lg:flex relative eye-section home-section md:col-span-1 flex justify-center items-center z-50">
         <div className="eye-container flex justify-center items-center">
           <Eye />
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
           className={`relative overlay overlay-blue project-section home-section border border-space flex justify-center items-center title-slide-in-right`}
         >
           <svg
-            className="arrow hidden md:visible arrow-right subtitle-slide-in-left"
+            className="arrow arrow-right subtitle-slide-in-left"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -75,7 +75,7 @@ export default function Home() {
         >
           {" "}
           <svg
-            className="arrow hidden md:visible arrow-right subtitle-slide-in-left"
+            className="arrow arrow-right subtitle-slide-in-left"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >

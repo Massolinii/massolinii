@@ -11,21 +11,12 @@ const config: Config = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        'lavender': {
-          DEFAULT: '#eae1f5',
-          'dark': '#d4c2eb'
-        },
-        'floral': {
-          DEFAULT: '#a379c9',
-          'dark': '#8850b9'
-        },
         'violet': {
-          DEFAULT: '#6752a6',
-          'dark': '#191429'
+          'border': '#6752a6',
+          DEFAULT: '#191429'
         },
         'space': {
           DEFAULT: '#151e4b',
-          'dark': '#0d1330'
         },
         'background': {
           DEFAULT: '#090E2C',

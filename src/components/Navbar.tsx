@@ -6,9 +6,9 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="grid grid-cols-3 w-full bg-violet-dark border-b border-violet relative">
+    <nav className="grid grid-cols-3 w-full bg-violet border-b border-violet-border relative">
       {/* Logo a sinistra */}
-      <div className="flex-grow px-4 py-6 border-r border-violet lg:border-r lg:border-violet">
+      <div className="flex-grow px-4 py-6 border-r border-violet-border lg:border-r lg:border-violet-border">
         <Link href="/">
           <svg
             className="logo"
@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       {/* Links al centro in modalità desktop */}
-      <div className="hidden lg:flex justify-between items-center flex-grow px-10 py-6 border-r border-violet">
+      <div className="hidden lg:flex justify-between items-center flex-grow px-10 py-6">
         <Link href="/about">
           <p>About Me</p>
         </Link>
@@ -74,7 +74,7 @@ export default function Navbar() {
 
       {/* Links in modalità mobile (tendina a comparsa) */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-space border border-violet lg:hidden z-10">
+        <div className="absolute top-full left-0 w-full bg-space border border-violet-border lg:hidden z-10">
           <div className="flex justify-around items-center py-4">
             <Link href="/" onClick={() => setIsOpen(false)}>
               <p>Home</p>
@@ -93,12 +93,12 @@ export default function Navbar() {
       )}
 
       {/* Link GitHub a destra */}
-      <div className="flex justify-end flex-grow px-4 py-6 border-l border-violet lg:border-l lg:border-violet">
+      <div className="flex justify-end flex-grow px-4 py-6 border-l border-violet-border lg:border-l lg:border-violet-border">
         <Link
           href="https://github.com/Massolinii"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-1 box-border border rounded-full border-violet"
+          className="px-4 py-1 box-border border rounded-full border-violet-border"
         >
           GitHub
         </Link>

@@ -8,6 +8,12 @@
   height: 50px;
 }
 
+@media (max-width: 767px) {
+  .arrow {
+    display: none;
+  }
+}
+
 .arrow-right {
   left: 80%;
 }
