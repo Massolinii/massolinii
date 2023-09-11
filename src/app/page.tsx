@@ -22,7 +22,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div
+        <Link
+          href="/about"
           className={`relative overlay overlay-red about-section home-section border border-space flex justify-center items-center title-slide-in-left`}
         >
           <svg
@@ -39,7 +40,7 @@ export default function Home() {
               Learn more about me
             </div>
           </div>
-        </div>
+        </Link>
       </div>
 
       <div className="hidden md:flex relative eye-section home-section border border-space md:col-span-1 lg:col-span-1 flex justify-center items-center z-50">
@@ -49,7 +50,8 @@ export default function Home() {
       </div>
 
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1">
-        <div
+        <Link
+          href="/projects"
           className={`relative overlay overlay-blue project-section home-section border border-space flex justify-center items-center title-slide-in-right`}
         >
           <svg
@@ -66,8 +68,9 @@ export default function Home() {
               Discover my latest projects
             </div>
           </div>
-        </div>
-        <div
+        </Link>
+        <Link
+          href="/contact"
           className={`relative overlay overlay-green contact-section home-section border border-space flex justify-center items-center title-slide-in-right`}
         >
           {" "}
@@ -85,7 +88,7 @@ export default function Home() {
               My contact informations
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </main>
   );
