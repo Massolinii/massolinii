@@ -69,11 +69,11 @@ const backendSkills = [
 export default function SkillsSection() {
   return (
     <div className="container mx-auto mt-10 max-w-screen-lg text-center">
-      <h3 className="text-4xl mb-10 mx-auto">Skills</h3>
+      <h3 className="text-4xl mx-auto text-center">Skills</h3>
       <div className="flex flex-col md:flex-row justify-between">
-        <div className="md:w-1/2 p-4">
-          <h4 className="text-3xl mb-4">Frontend</h4>
-          <div className="grid grid-cols-2 gap-4">
+        <div className="md:w-3/5 lg:w-1/2 m-7 border shadow-lg">
+          <h4 className="text-3xl m-4">Frontend</h4>
+          <div className="flex flex-wrap justify-center gap-6">
             {frontendSkills.map((skill, index) => (
               <SkillCard
                 key={index}
@@ -83,9 +83,9 @@ export default function SkillsSection() {
             ))}
           </div>
         </div>
-        <div className="md:w-1/2 p-4">
-          <h4 className="text-3xl mb-4">Backend</h4>
-          <div className="grid grid-cols-1 gap-4">
+        <div className="md:w-3/5 lg:w-1/2 m-7 border shadow-lg">
+          <h4 className="text-3xl m-4">Backend</h4>
+          <div className="flex flex-wrap justify-center gap-10">
             {backendSkills.map((skill, index) => (
               <SkillCard
                 key={index}
