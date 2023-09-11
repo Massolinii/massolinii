@@ -6,3 +6,8 @@ body {
   margin: 0px;
   overflow: hidden;
 }
+
+.logo {
+  height: 30px;
+  width: auto;
+}

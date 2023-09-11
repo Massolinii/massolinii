@@ -27,7 +27,7 @@ export default function Home() {
           className={`relative overlay overlay-red about-section home-section border border-space flex justify-center items-center title-slide-in-left`}
         >
           <svg
-            className="arrow arrow-left subtitle-slide-in-right-rotate"
+            className="arrow hidden md:visible arrow-left subtitle-slide-in-right-rotate"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -55,7 +55,7 @@ export default function Home() {
           className={`relative overlay overlay-blue project-section home-section border border-space flex justify-center items-center title-slide-in-right`}
         >
           <svg
-            className="arrow arrow-right subtitle-slide-in-left"
+            className="arrow hidden md:visible arrow-right subtitle-slide-in-left"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -75,7 +75,7 @@ export default function Home() {
         >
           {" "}
           <svg
-            className="arrow arrow-right subtitle-slide-in-left"
+            className="arrow hidden md:visible arrow-right subtitle-slide-in-left"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
