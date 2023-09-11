@@ -60,6 +60,7 @@ export default function Navbar() {
           href="https://github.com/Massolinii"
           target="_blank"
           rel="noopener noreferrer"
+          className="px-4 py-1 box-border border rounded-full border-violet"
         >
           GitHub
         </Link>

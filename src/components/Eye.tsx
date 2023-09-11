@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../../styles/Eye.css";
+import "../styles/Eye.css";
 
 const Eye: React.FC = () => {
   useEffect(() => {
@@ -24,7 +24,7 @@ const Eye: React.FC = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container eye-animation">
       <div className="eyes"></div>
     </div>
   );
