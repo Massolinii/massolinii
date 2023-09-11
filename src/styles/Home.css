@@ -2,6 +2,45 @@
   overflow: hidden;
 }
 
+.title-slide-in-right {
+  animation: slide-in-right 1.3s ease-out;
+}
+
+.title-slide-in-left {
+  animation: slide-in-left 1.3s ease-out;
+}
+
+.subtitle-slide-in-right {
+  animation: slide-in-right 1.8s ease-out 0.5s; /* 0.5s di delay */
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.subtitle-slide-in-left {
+  animation: slide-in-left 1.8s ease-out 0.5s; /* 0.5s di delay */
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .overlay::before {
   content: "";
   position: absolute;
@@ -24,21 +63,21 @@
 }
 
 .overlay-red:hover::before {
-  background-color: rgba(255, 0, 0, 0.04);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .overlay-green:hover::before {
-  background-color: rgba(0, 255, 0, 0.04);
+  background-color: rgba(0, 255, 0, 0.2);
 }
 
 .overlay-blue:hover::before {
-  background-color: rgba(0, 0, 255, 0.04);
+  background-color: rgba(0, 0, 255, 0.2);
 }
 
 .overlay-yellow:hover::before {
-  background-color: rgba(255, 255, 0, 0.04);
+  background-color: rgba(255, 255, 0, 0.2);
 }
 
 .overlay-white:hover::before {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.1);
 }
