@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutImage() {
   return (
     <div className="flex-1 flex justify-center items-center">
-      <div className="rounded-ss-3xl rounded-ee-3xl overflow-hidden border-2 border-violet-border">
+      <div className="rounded-ss-3xl rounded-ee-3xl overflow-hidden border-2 border-primary-border">
         <Image
           src="/massy_sorrisoscemo.jpg"
           alt="Massimiliano Esposito"

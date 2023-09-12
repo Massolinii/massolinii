@@ -24,7 +24,7 @@ const frontendSkills = [
   {
     imgSrc: "/icons/front-end/redux.svg",
     skillName: "Redux",
-    color: "text-violet-500",
+    color: "text-primary-500",
   },
   {
     imgSrc: "/icons/front-end/typescript.svg",
@@ -76,6 +76,11 @@ const backendSkills = [
     color: "text-blue-600",
   },
   {
+    imgSrc: "/icons/back-end/spring-security.png",
+    skillName: "Spring Security",
+    color: "text-lime-600",
+  },
+  {
     imgSrc: "/icons/back-end/postgresql.svg",
     skillName: "PosteSQL",
     color: "text-blue-400",
@@ -84,10 +89,10 @@ const backendSkills = [
 
 export default function AboutSkills() {
   return (
-    <div className="container mx-auto mt-10 max-w-screen-lg text-center">
+    <div className="container flex flex-col mx-auto max-w-screen-lg text-center my-8">
       <h3 className="text-4xl mx-auto text-center">Skills</h3>
-      <div className="flex flex-col md:flex-row justify-between text-slate-200">
-        <div className="md:w-3/5 lg:w-1/2 m-7 p-1 border-2 border-violet-border rounded-3xl bg-skills-bg">
+      <div className="flex flex-col md:flex-row justify-between text-slate-200 gap-5 my-6">
+        <div className="md:w-3/5 lg:w-1/2 p-1 border-2 border-primary-border rounded-3xl bg-primary">
           <h4 className="text-3xl m-4 ">Frontend</h4>
           <div className="flex flex-wrap justify-center gap-6 ">
             {frontendSkills.map((skill, index) => (
@@ -100,7 +105,7 @@ export default function AboutSkills() {
             ))}
           </div>
         </div>
-        <div className="md:w-3/5 lg:w-1/2 m-7 border-2 border-violet-border rounded-3xl bg-skills-bg">
+        <div className="md:w-3/5 lg:w-1/2 border-2 border-primary-border rounded-3xl bg-primary">
           <h4 className="text-3xl m-4">Backend</h4>
           <div className="flex flex-wrap justify-center gap-10 ">
             {backendSkills.map((skill, index) => (

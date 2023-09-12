@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutHeader() {
   return (
-    <div className="flex-1 flex flex-col justify-center items-center lg:items-start ms-2 mb-5 lg:mb-0">
+    <div className="flex-1 flex flex-col justify-center items-center lg:items-start mb-5 lg:mb-0">
       <h1 className="text-3xl md:text-5xl my-2 lg:mb-4 text-center lg:text-left">
         Hi there! <br /> I am Massimiliano Esposito
       </h1>
@@ -10,12 +10,16 @@ export default function AboutHeader() {
         A junior full-stack programmer
       </h2>
       <p className="text-md md:text-lg mb-2 lg:mb-4 text-center lg:text-left">
-        I am a very funny guy and this is a placeholder for bla
-        blalgjfgkfgkldsfk djfsdkfjfjdsklfjsdfjsdiok ifjdsidfjipj
+        Also, an enthusiastic individial, with a knack for embracing new
+        challenges, balancing creativity with analytical rigor.
+        <br /> <br />
+        Building the web one line at the time.
       </p>
       <Link
-        href=""
-        className="bg-violet text-white py-2 px-4 rounded hover:bg-violet-border text-center"
+        href="https://drive.google.com/file/d/14LsP3nY5Oq9XC5aFhhceKED9wxyEaIpT/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-primary border-x-8 border-y-2 border-primary-border text-white py-2 px-4 rounded hover:bg-primary-border text-center"
       >
         Check my resume
       </Link>
