@@ -8,7 +8,7 @@ export default function Home() {
     <main className="home-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center">
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1">
         <div
-          className={`relative overlay overlay-yellow name-section home-section border border-space flex justify-center items-center flex-col p-5 title-slide-in-left`}
+          className={`relative overlay overlay-yellow name-section home-section border-r-2 border-b border-space flex justify-center items-center flex-col p-5 title-slide-in-left`}
         >
           <div className="pb-2">MASSIMILIANO ESPOSITO</div>
           <div className="subtitle-slide-in-right">
@@ -24,7 +24,7 @@ export default function Home() {
 
         <Link
           href="/about"
-          className={`relative overlay overlay-red about-section home-section border border-space flex justify-center items-center title-slide-in-left`}
+          className={`relative overlay overlay-red about-section home-section border-r-2 border-t border-space flex justify-center items-center title-slide-in-left`}
         >
           <svg
             className="arrow arrow-left subtitle-slide-in-right-rotate"
@@ -52,7 +52,7 @@ export default function Home() {
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1">
         <Link
           href="/projects"
-          className={`relative overlay overlay-blue project-section home-section border border-space flex justify-center items-center title-slide-in-right`}
+          className={`relative overlay overlay-blue project-section home-section border-l-2 border-b border-space flex justify-center items-center title-slide-in-right`}
         >
           <svg
             className="arrow arrow-right subtitle-slide-in-left"
@@ -71,7 +71,7 @@ export default function Home() {
         </Link>
         <Link
           href="/contact"
-          className={`relative overlay overlay-green contact-section home-section border border-space flex justify-center items-center title-slide-in-right`}
+          className={`relative overlay overlay-green contact-section home-section border-l-2 border-t border-space flex justify-center items-center title-slide-in-right`}
         >
           {" "}
           <svg

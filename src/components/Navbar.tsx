@@ -6,9 +6,9 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="grid grid-cols-3 w-full bg-violet border-b border-violet-border relative">
+    <nav className="grid grid-cols-3 w-full bg-violet border-b-2 border-violet-border relative">
       {/* Logo a sinistra */}
-      <div className="flex items-center ps-5 border-r border-violet-border lg:border-r lg:border-violet-border">
+      <div className="flex items-center ps-5 border-r-2 border-violet-border">
         <Link href="/">
           <svg
             className="logo"
@@ -61,7 +61,7 @@ export default function Navbar() {
 
       {/* Links in modalità mobile (tendina a comparsa) */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-space border border-violet-border lg:hidden z-10">
+        <div className="absolute top-full left-0 w-full bg-space z-10">
           <div className="flex justify-around items-center py-4">
             <Link href="/" onClick={() => setIsOpen(false)}>
               <p>Home</p>
@@ -80,12 +80,12 @@ export default function Navbar() {
       )}
 
       {/* Link GitHub a destra */}
-      <div className="flex justify-end flex-grow px-4 py-6 border-l border-violet-border lg:border-l lg:border-violet-border">
+      <div className="flex justify-end flex-grow pe-5 py-5 border-l-2 border-violet-border">
         <Link
           href="https://github.com/Massolinii"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-1 box-border border rounded-full border-violet-border"
+          className="px-4 py-1 box-border border-2 border-violet-border rounded-full"
         >
           GitHub
         </Link>

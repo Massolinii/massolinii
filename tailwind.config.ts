@@ -12,14 +12,18 @@ const config: Config = {
         transparent: 'transparent',
         current: 'currentColor',
         'violet': {
-          'border': '#6752a6',
-          DEFAULT: '#191429'
+          'border': '#382c5e',
+          DEFAULT: '#191924'
+        },
+        'skills': {
+          'bg': '#171721',
+          DEFAULT: '#5f4e66'
         },
         'space': {
           DEFAULT: '#151e4b',
         },
         'background': {
-          DEFAULT: '#090E2C',
+          DEFAULT: '#05091d',
         },
       }
     },
