@@ -45,14 +45,14 @@ export default function Navbar() {
       </div>
 
       {/* Links al centro in modalità desktop */}
-      <div className="hidden lg:flex justify-between items-center flex-grow px-10 py-6">
-        <Link href="/about">
+      <div className="hidden lg:flex justify-between items-center flex-grow px-10 py-6 ">
+        <Link href="/about" className="hover:underline underline-offset-8">
           <p>About Me</p>
         </Link>
-        <Link href="/projects">
+        <Link href="/projects" className="hover:underline underline-offset-8">
           <p>Projects</p>
         </Link>
-        <Link href="/contacts">
+        <Link href="/contacts" className="hover:underline underline-offset-8">
           <p>Contacts</p>
         </Link>
       </div>
