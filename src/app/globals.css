@@ -15,4 +15,5 @@ body {
 
 .major {
   font-family: "Major Mono Display", monospace;
+  font-weight: bold;
 }

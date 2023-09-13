@@ -8,7 +8,7 @@ export default function Home() {
     <main className="home-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center ">
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1 text-left">
         <div
-          className={`overlay overlay-yellow name-section home-section ps-4 border-r-2 border-b border-secondary flex flex-col justify-center title-slide-in-left`}
+          className={`overlay overlay-yellow name-section home-section ps-4 border-r-2 border-l-2 lg:border-l-0 border-b border-secondary flex flex-col justify-center title-slide-in-left`}
         >
           <div className="subtitle-slide-in-right">
             <h1 className="pb-2 lg:hidden major">Massimiliano Esposito</h1>
@@ -24,15 +24,15 @@ export default function Home() {
 
         <Link
           href="/about"
-          className={`overlay overlay-red about-section home-section ps-4 border-r-2 border-t border-secondary flex flex-col justify-center title-slide-in-left`}
+          className={`overlay overlay-red about-section home-section ps-4 border-r-2 border-b-2 border-l-2 lg:border-b-0 lg:border-l-0 border-t border-secondary flex flex-col justify-center title-slide-in-left`}
         >
           <div className="flex-col">
             <h2 className="pb-2">About Me</h2>
-            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-right my-3">
+            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-right mt-3 mb-5">
               Learn more about me
             </h3>
             <svg
-              className="arrow arrow-left subtitle-slide-in-right-rotate"
+              className="arrow arrow-left arrow-slide-in-right"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -55,15 +55,15 @@ export default function Home() {
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1 text-right ">
         <Link
           href="/projects"
-          className={` overlay overlay-blue project-section home-section pe-4 border-l-2 border-b border-secondary  flex flex-col justify-center items-end title-slide-in-right`}
+          className={` overlay overlay-blue project-section home-section pe-4 border-l-2 border-r-2 lg:border-r-0 border-b border-secondary  flex flex-col justify-center items-end title-slide-in-right`}
         >
           <div className="flex-col text-right">
             <h2 className="pb-2">Projects</h2>
-            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left my-3">
+            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left mt-3 mb-5">
               Discover my latest projects
             </h3>
             <svg
-              className="arrow arrow-right subtitle-slide-in-left ml-auto"
+              className="arrow arrow-right arrow-slide-in-left ml-auto"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -79,11 +79,11 @@ export default function Home() {
           {" "}
           <div className="flex-col">
             <h2 className="pb-2">Contact</h2>
-            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left my-3">
+            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left mt-3 mb-5">
               My contact informations
             </h3>
             <svg
-              className="arrow arrow-right subtitle-slide-in-left  ml-auto"
+              className="arrow arrow-right arrow-slide-in-left  ml-auto"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >

@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="grid grid-cols-3 w-full bg-primary border-b-2 border-primary-border relative">
+    <nav className="grid grid-cols-3 w-full bg-primary border-b-2 border-primary-border relative font-bold">
       {/* Logo a sinistra */}
       <div className="flex items-center ps-5 border-r-2 border-primary-border">
         <Link href="/">
