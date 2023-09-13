@@ -101,15 +101,15 @@ export default function Page() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <div className="container mx-auto p-4 flex flex-col">
-      <h1 className="mx-auto text-center text-4xl m-3">Projects</h1>
-      <h2 className="mx-auto text-center text-2xl m-2">
+    <section className="container mx-auto p-4 flex flex-col">
+      <h2 className="mx-auto text-center text-4xl m-3">Projects</h2>
+      <h3 className="mx-auto text-center text-2xl m-2">
         Some of my latest favorites projects I have worken on, both alone and in
         team.
-      </h2>
-      <h3 className="mx-auto text-center text-xl m-2 mb-10">
-        🚧 Work In Progress to host some on them online 🚧
       </h3>
+      <h4 className="mx-auto text-center text-xl m-2 mb-10">
+        🚧 Work In Progress to host some on them online 🚧
+      </h4>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project) => (
@@ -127,6 +127,6 @@ export default function Page() {
           deselectProject={() => setSelectedProject(null)}
         />
       )}
-    </div>
+    </section>
   );
 }

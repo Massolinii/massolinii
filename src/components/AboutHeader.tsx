@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function AboutHeader() {
   return (
     <div className="flex-1 flex flex-col justify-center items-center lg:items-start mb-5 lg:mb-0">
-      <h1 className="text-3xl md:text-5xl my-2 lg:mb-4 text-center lg:text-left">
+      <h2 className="text-3xl md:text-5xl my-2 lg:mb-4 text-center lg:text-left">
         Hi there! <br /> I am Massimiliano Esposito
-      </h1>
-      <h2 className="text-1xl md:text-3xl mb-2 lg:mb-4 text-center lg:text-left">
-        A junior full-stack programmer
       </h2>
+      <h3 className="text-1xl md:text-3xl mb-2 lg:mb-4 text-center lg:text-left">
+        A junior full-stack programmer
+      </h3>
       <p className="text-md md:text-lg mb-2 lg:mb-4 text-center lg:text-left">
         Also, an enthusiastic individial, with a knack for embracing new
         challenges, balancing creativity with analytical rigor.

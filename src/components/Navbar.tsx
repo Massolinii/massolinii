@@ -66,7 +66,7 @@ export default function Navbar() {
 
       {/* Links in modalità mobile (tendina a comparsa) */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-space z-10">
+        <div className="absolute top-full left-0 w-full bg-primary border-y-2 border-primary-border z-10">
           <div className="flex justify-around items-center py-4">
             <Link href="/" onClick={() => setIsOpen(false)}>
               <p>Home</p>
@@ -90,7 +90,7 @@ export default function Navbar() {
           href="https://github.com/Massolinii"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-1 box-border border-2 border-primary-border rounded-full"
+          className="px-2 md:px-4 py-1 box-border border-2 border-primary-border rounded-full"
         >
           GitHub
         </Link>
