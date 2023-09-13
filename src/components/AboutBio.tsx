@@ -8,10 +8,11 @@ export default function AboutBio() {
           from biochemistry to web development.
           <br />
           <br />
-          I have always been mesmerized by the transformative power of the
-          internet, capable of ranging from simple everyday tools to solutions
-          for intricate problems. This fascination ignited my journey into
-          studying full-stack programming.
+          Born in Messina, Sicily and moved in Milan around 2020, I have always
+          been mesmerized by the transformative power of the internet, capable
+          of ranging from simple everyday problems to a tool to bring people
+          together. This fascination ignited my journey into studying
+          development, and full-stack programming.
           <br />
           <br />
           My enthusiasm lies in crafting user-friendly, intuitive applications

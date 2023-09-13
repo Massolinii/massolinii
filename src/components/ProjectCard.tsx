@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   selectProject,
 }) => (
   <div
-    className="bg-primary  rounded-lg p-4 border-2 border-primary-border cursor-pointer"
+    className="bg-primary rounded-lg p-4 border-2 border-primary-border cursor-pointer"
     onClick={() => selectProject(project)}
   >
     <div className="rounded-lg overflow-hidden">
@@ -20,8 +20,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         src={project.image}
         objectFit="cover"
         alt={project.title}
-        height={100}
-        width={700}
+        height={1000}
+        width={1000}
       />
     </div>
     <div className="flex flex-wrap gap-2 mt-2 ">
@@ -34,7 +34,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </span>
       ))}
     </div>
-    <h3 className="text-xl mt-2">{project.title}</h3>
+    <h3 className="text-xl font-bold mt-4">{project.title}</h3>
     <small className="text-gray-500">{project.date}</small>
     <p className="text-sm mt-2">{project.description}</p>
   </div>

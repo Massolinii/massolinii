@@ -3,7 +3,7 @@
 }
 
 .title-animation {
-  animation: title-show 1.3s ease-out;
+  animation: title-show 2s ease-out;
 }
 
 @keyframes title-show {

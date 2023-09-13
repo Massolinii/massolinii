@@ -10,7 +10,7 @@ export default function Navbar() {
       {/* Logo a sinistra */}
       <div className="flex items-center ps-5 border-r-2 border-primary-border">
         <Link href="/">
-          <div className="flex items-end">
+          <div className="flex items-center">
             <svg
               className="logo"
               id="Livello_2"
@@ -37,7 +37,7 @@ export default function Navbar() {
                 </g>
               </g>
             </svg>
-            <div className="ml-2 mt-1">Home</div>
+            <div className="ml-2 mt-1 border p-1">Home</div>
           </div>
         </Link>
       </div>
