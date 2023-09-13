@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
     <h3 className="text-xl font-bold mt-4 truncate">{project.title}</h3>
     <small className="text-gray-500">{project.date}</small>
-    <div className="flex flex-wrap gap-2 mt-2 overflow-y-hidden max-h-[70px]">
+    <div className="flex flex-wrap gap-1 mt-2 max-h-[90px]">
       {project.tags.map((tag, index) => (
         <span
           key={index}
