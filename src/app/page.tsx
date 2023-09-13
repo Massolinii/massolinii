@@ -5,13 +5,13 @@ import "../styles/Home.css";
 
 export default function Home() {
   return (
-    <main className="home-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center">
+    <main className="home-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center ">
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1 text-left">
         <div
           className={`overlay overlay-yellow name-section home-section ps-4 border-r-2 border-b border-secondary flex flex-col justify-center title-slide-in-left`}
         >
           <div className="subtitle-slide-in-right">
-            <h1 className="pb-2 text-3xl lg:hidden">MASSIMILIANO ESPOSITO</h1>
+            <h1 className="pb-2 lg:hidden major">Massimiliano Esposito</h1>
             <div className="text-sm md:text-base lg:text-lg ">
               A junior full-stack web developer currently working on crafting
               fine user experiences that capture imagination.
@@ -28,7 +28,7 @@ export default function Home() {
         >
           <div className="flex-col">
             <h2 className="pb-2">About Me</h2>
-            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-right">
+            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-right my-3">
               Learn more about me
             </h3>
             <svg
@@ -44,7 +44,7 @@ export default function Home() {
       </div>
 
       <div className="hidden lg:flex relative eye-section home-section md:col-span-1 flex justify-center items-center z-50 relative">
-        <h1 className="pb-2 absolute top-14 title-animation">
+        <h1 className="pb-2 absolute top-14 title-animation ">
           MASSIMILIANO ESPOSITO
         </h1>
         <div className="eye-container flex justify-center items-center ">
@@ -59,7 +59,7 @@ export default function Home() {
         >
           <div className="flex-col text-right">
             <h2 className="pb-2">Projects</h2>
-            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left">
+            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left my-3">
               Discover my latest projects
             </h3>
             <svg
@@ -79,7 +79,7 @@ export default function Home() {
           {" "}
           <div className="flex-col">
             <h2 className="pb-2">Contact</h2>
-            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left">
+            <h3 className="text-base md:text-base lg:text-lg subtitle-slide-in-left my-3">
               My contact informations
             </h3>
             <svg

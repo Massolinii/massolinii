@@ -85,12 +85,12 @@ export default function Navbar() {
       )}
 
       {/* Link GitHub a destra */}
-      <div className="flex justify-end flex-grow pe-5 py-5 border-l-2 border-primary-border">
+      <div className="flex justify-end flex-grow pe-5 py-5 border-l-2 border-primary-border ">
         <Link
           href="https://github.com/Massolinii"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-2 md:px-4 py-1 box-border border-2 border-primary-border rounded-full"
+          className="px-2 md:px-4 py-1 box-border border-2 border-primary-border rounded-full hover:bg-primary-transparency"
         >
           GitHub
         </Link>
