@@ -92,7 +92,7 @@ export default function AboutSkills() {
     <div className="container flex flex-col mx-auto max-w-screen-lg text-center my-8">
       <h3 className="text-4xl mx-auto text-center">Skills</h3>
       <div className="flex flex-col md:flex-row justify-between text-slate-200 gap-5 my-6">
-        <div className="md:w-3/5 lg:w-1/2 p-1 border-2 border-primary-border rounded-3xl bg-primary">
+        <div className="md:w-3/5 lg:w-1/2 p-1 border-t-4 border-b-8 border-primary-border rounded-3xl bg-primary">
           <h4 className="text-3xl m-4 ">Frontend</h4>
           <div className="flex flex-wrap justify-center gap-6 ">
             {frontendSkills.map((skill, index) => (
@@ -105,7 +105,7 @@ export default function AboutSkills() {
             ))}
           </div>
         </div>
-        <div className="md:w-3/5 lg:w-1/2 border-2 border-primary-border rounded-3xl bg-primary">
+        <div className="md:w-3/5 lg:w-1/2 border-t-4 border-b-8 border-primary-border rounded-3xl bg-primary">
           <h4 className="text-3xl m-4">Backend</h4>
           <div className="flex flex-wrap justify-center gap-10 ">
             {backendSkills.map((skill, index) => (

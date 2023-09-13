@@ -14,7 +14,7 @@ const config: Config = {
         'primary': {
           DEFAULT: '#191924',
           'border': '#382c5e',
-          'transparency': '#382c5e52'
+          'transparency': '#382c5e40'
         },
         'secondary': {
           DEFAULT: '#151e4b',
@@ -25,7 +25,9 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-inner-border"),
+  ],
 }
 
 export default config

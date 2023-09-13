@@ -2,6 +2,7 @@ import AboutHeader from "@/components/AboutHeader";
 import AboutImage from "@/components/AboutImage";
 import AboutSkills from "@/components/AboutSkills";
 import AboutBio from "@/components/AboutBio";
+import HomeButton from "@/components/HomeButton";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       </div>
       <AboutSkills />
       <AboutBio />
+      <HomeButton />
     </div>
   );
 }

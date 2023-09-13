@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectModal from "@/components/ProjectModal";
+import HomeButton from "@/components/HomeButton";
 
 const projects = [
   {
@@ -60,7 +61,7 @@ const projects = [
     title: "Netflix Replica",
     date: "April 2023",
     description:
-      "A netflix replica, with a gorgeous jumbotron and some carousel effect for the categories. Made using IMDB API.",
+      "A Netflix replica, with the tipical netflix-jumbotron and some carousel effect for the categories. Made using IMDB API.",
     tags: ["React", "Redux", "Bootstrap", "react-router-dom"],
     image: "/projects/netflix.jpg",
     video: "",
@@ -101,11 +102,14 @@ export default function Page() {
 
   return (
     <div className="container mx-auto p-4 flex flex-col">
-      <h1 className="mx-auto text-center text-4xl m-5">My Projects</h1>
-      <h2 className="mx-auto text-center text-xl m-2 mb-10">
+      <h1 className="mx-auto text-center text-4xl m-3">Projects</h1>
+      <h2 className="mx-auto text-center text-2xl m-2">
         Some of my latest favorites projects I have worken on, both alone and in
         team.
       </h2>
+      <h3 className="mx-auto text-center text-xl m-2 mb-10">
+        🚧 Work In Progress to host some on them online 🚧
+      </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project) => (
@@ -116,6 +120,7 @@ export default function Page() {
           />
         ))}
       </div>
+      <HomeButton />
       {selectedProject && (
         <ProjectModal
           project={selectedProject}

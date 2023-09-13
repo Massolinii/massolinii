@@ -19,7 +19,7 @@ export default function AboutHeader() {
         href="https://drive.google.com/file/d/14LsP3nY5Oq9XC5aFhhceKED9wxyEaIpT/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-primary border-x-8 border-y-2 border-primary-border text-white py-2 px-4 rounded hover:bg-primary-border text-center"
+        className="bg-primary border-x-8 border-y-2 border-primary-border text-white py-2 px-4 rounded hover:bg-primary-transparency text-center"
       >
         Check my resume
       </Link>

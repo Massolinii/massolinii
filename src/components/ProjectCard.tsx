@@ -12,31 +12,33 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   selectProject,
 }) => (
   <div
-    className="bg-primary rounded-lg p-4 border-2 border-primary-border cursor-pointer"
+    className="bg-primary rounded-3xl p-4 border-t-4 border-b-8 border-primary-border cursor-pointer h-[400px] flex flex-col"
     onClick={() => selectProject(project)}
   >
-    <div className="rounded-lg overflow-hidden">
+    <div className="relative rounded-lg overflow-hidden h-[170px] object-cover">
       <Image
         src={project.image}
         objectFit="cover"
         alt={project.title}
-        height={1000}
-        width={1000}
+        fill={true}
       />
     </div>
-    <div className="flex flex-wrap gap-2 mt-2 ">
+
+    <h3 className="text-xl font-bold mt-4 truncate">{project.title}</h3>
+    <small className="text-gray-500">{project.date}</small>
+    <div className="flex flex-wrap gap-2 mt-2 overflow-y-hidden max-h-[70px]">
       {project.tags.map((tag, index) => (
         <span
           key={index}
-          className="bg-primary-transparency p-2 rounded-xl text-xs "
+          className="bg-primary-transparency p-2 rounded-xl text-xs truncate"
         >
           {tag}
         </span>
       ))}
     </div>
-    <h3 className="text-xl font-bold mt-4">{project.title}</h3>
-    <small className="text-gray-500">{project.date}</small>
-    <p className="text-sm mt-2">{project.description}</p>
+    <p className="text-sm mt-2 overflow-y-hidden max-h-[70px]">
+      {project.description}
+    </p>
   </div>
 );
 
