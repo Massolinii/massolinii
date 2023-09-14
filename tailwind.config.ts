@@ -26,8 +26,10 @@ const config: Config = {
     },
   },
   plugins: [
-    require("tailwindcss-inner-border"),
+    
   ],
 }
 
 export default config
+
+// https://coolors.co/151e4b-382c5e-191924-05091d

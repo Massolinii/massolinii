@@ -37,7 +37,7 @@ export default function Navbar() {
                 </g>
               </g>
             </svg>
-            <div className="hidden sm:block ml-2 mt-1 border-l-2 border-primary-border p-2 ps-4 ms-4">
+            <div className="hidden hover:underline underline-offset-8 sm:block ml-2 mt-1 border-l-2 border-primary-border p-2 ps-4 ms-4">
               Home
             </div>
           </div>

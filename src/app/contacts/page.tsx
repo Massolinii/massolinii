@@ -5,10 +5,12 @@ export default function Page() {
     <section className="container mx-auto p-4 flex flex-col">
       <h2 className="mx-auto text-center text-4xl mt-3 mb-12">Contacts</h2>
       <div className="flex flex-col lg:flex-row justify-center items-center gap-x-10">
-        <div className="flex flex-row w-[300px] py-2 my-4 bg-primary border-t-4 border-b-8 rounded-3xl border-primary-border justify-center items-center hover:bg-blue-800">
+        <div className="flex flex-row w-[300px] py-2 my-4 bg-primary border-t-4 border-b-8 rounded-3xl border-primary-border justify-center items-center hover:bg-blue-800 hover:underline">
           <a
             href="https://www.linkedin.com/in/massimiliano-esposito/"
-            className="hover:underline pe-5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" pe-5"
           >
             Add me on LinkedIn
           </a>
@@ -38,10 +40,12 @@ export default function Page() {
             ></path>
           </svg>
         </div>
-        <div className="flex flex-row w-[300px] py-2 my-4 bg-primary border-t-4 border-b-8 rounded-3xl border-primary-border justify-center items-center hover:bg-zinc-600">
+        <div className="flex flex-row w-[300px] py-2 my-4 bg-primary border-t-4 border-b-8 rounded-3xl border-primary-border justify-center items-center hover:bg-zinc-600 hover:underline">
           <a
-            href="https://www.linkedin.com/in/massimiliano-esposito/"
-            className="hover:underline pe-5"
+            href="https://github.com/Massolinii"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pe-5"
           >
             Follow me on GitHub
           </a>

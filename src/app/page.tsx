@@ -8,7 +8,7 @@ export default function Home() {
     <main className="home-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 md:grid-rows-1 h-full w-full text-xl md:text-2xl lg:text-4xl text-center ">
       <div className="grid grid-rows-2 md:col-span-1 lg:col-span-1 text-left">
         <div
-          className={`overlay overlay-yellow name-section home-section ps-4 border-r-2 border-l-2 lg:border-l-0 border-b border-secondary flex flex-col justify-center title-slide-in-left`}
+          className={`overlay overlay-white name-section home-section ps-4 border-r-2 border-l-2 lg:border-l-0 border-b border-secondary flex flex-col justify-center title-slide-in-left`}
         >
           <div className="subtitle-slide-in-right">
             <h1 className="pb-2 lg:hidden major">Massimiliano Esposito</h1>
