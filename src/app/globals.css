@@ -17,3 +17,8 @@ body {
   font-family: "Major Mono Display", monospace;
   font-weight: bold;
 }
+
+#foto-massy {
+  width: auto;
+  height: auto;
+}

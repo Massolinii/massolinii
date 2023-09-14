@@ -93,7 +93,14 @@ export default function Page() {
         </div>
       </div>
 
-      <h3>Currently base on Milan</h3>
+      <div className="text-center mt-6">
+        {" "}
+        <h3 className="text-3xl">Currently based in Milan, Italy</h3>
+        <h4 className="text-1xl my-2">
+          Ring me up if you want to discuss code &#39;n&#39; stuff over a
+          coffee☕, spritz🍹 or a pizza 🍕
+        </h4>
+      </div>
       <HomeButton />
     </section>
   );
