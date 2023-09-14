@@ -16,7 +16,7 @@ export default function Home() {
               A junior full-stack web developer currently working on crafting
               fine user experiences that capture imagination.
             </div>
-            <div className="text-sm pt-9">
+            <div className="text-sm pt-5 md:pt-9">
               Feel free to view this site on desktop to enjoy its content
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
 
       <div className="hidden lg:flex relative eye-section home-section md:col-span-1 flex justify-center items-center z-50 relative">
         <h1 className="pb-2 absolute top-14 title-animation ">
-          MASSIMILIANO ESPOSITO
+          Massimiliano Esposito
         </h1>
         <div className="eye-container flex justify-center items-center ">
           <Eye />
@@ -73,8 +73,8 @@ export default function Home() {
           </div>
         </Link>
         <Link
-          href="/contact"
-          className={` overlay overlay-green contact-section home-section pe-4 border-l-2 border-t border-secondary  flex flex-col justify-center items-end title-slide-in-right`}
+          href="/contacts"
+          className={` overlay overlay-green contact-section home-section pe-4 border-2 border-t-1 lg:border-r-0 lg:border-b-0 border-t border-secondary  flex flex-col justify-center items-end title-slide-in-right`}
         >
           {" "}
           <div className="flex-col">

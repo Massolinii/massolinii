@@ -16,7 +16,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
     onClick={deselectProject}
   >
     <div
-      className="modal bg-primary border-x-4 border-y border-primary-border p-4 rounded-sm w-11/12 md:max-w-xl m-auto"
+      className="modal bg-primary border-x-4 border-primary-border p-4 rounded-3xl w-11/12 md:max-w-xl m-auto"
       onClick={(e) => e.stopPropagation()}
     >
       <div className="relative w-full">

@@ -92,59 +92,8 @@ export default function Page() {
           </svg>
         </div>
       </div>
-      <form className="container flex flex-col mx-auto my-4 p-6 rounded-3xl shadow-lg w-full md:w-4/5 lg:w-3/5 bg-primary border-t-4 border-b-8 rounded-3xl border-primary-border">
-        <h1 className="text-center text-2xl font-semibold mb-4">
-          Let&apos;s get in touch!
-        </h1>
 
-        <div className="flex flex-col mb-4">
-          <label htmlFor="frm-email" className="mb-2">
-            Email
-          </label>
-          <input
-            id="frm-email"
-            type="email"
-            name="email"
-            autoComplete="email"
-            required
-            className="p-2 rounded border border-gray-600 bg-blue-100"
-          />
-        </div>
-
-        <div className="flex flex-col mb-4">
-          <label htmlFor="frm-phone" className="mb-2">
-            Phone <span className="text-xs text-slate-500">(not required)</span>
-          </label>
-          <input
-            id="frm-phone"
-            type="text"
-            name="phone"
-            autoComplete="tel"
-            required
-            className="p-2 rounded border border-gray-600 bg-blue-100"
-          />
-        </div>
-
-        <div className="flex flex-col mb-4">
-          <label htmlFor="frm-message" className="mb-2">
-            Message
-          </label>
-          <textarea
-            id="frm-message"
-            name="message"
-            className="resize-none p-2 rounded border border-gray-600 bg-blue-100"
-          ></textarea>
-        </div>
-
-        <div className="flex justify-center">
-          <button
-            type="submit"
-            className="p-2 w-1/4 border-2 border-primary-border bg-primary-transparency hover:bg-violet-950 rounded text-xl"
-          >
-            Submit
-          </button>
-        </div>
-      </form>
+      <h3>Currently base on Milan</h3>
       <HomeButton />
     </section>
   );
