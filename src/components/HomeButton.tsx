@@ -8,7 +8,7 @@ const HomeButton = () => {
         href="/"
         className="flex bg-primary p-2 rounded-lg border-2 border-primary-border"
       >
-        <p className="ps-1 pt-1 pe-3">Go Home</p>
+        <p className="ps-1 pt-1 pe-3 font-bold">Go Home</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"

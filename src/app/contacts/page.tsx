@@ -10,7 +10,7 @@ export default function Page() {
             href="https://www.linkedin.com/in/massimiliano-esposito/"
             target="_blank"
             rel="noopener noreferrer"
-            className=" pe-5"
+            className="px-1"
           >
             Add me on LinkedIn
           </a>
@@ -45,7 +45,7 @@ export default function Page() {
             href="https://github.com/Massolinii"
             target="_blank"
             rel="noopener noreferrer"
-            className="pe-5"
+            className="px-1"
           >
             Follow me on GitHub
           </a>
@@ -96,7 +96,7 @@ export default function Page() {
       <div className="text-center mt-6">
         {" "}
         <h3 className="text-3xl">Currently based in Milan, Italy</h3>
-        <h4 className="text-1xl my-2">
+        <h4 className="text-1xl my-5 cousine">
           Ring me up if you want to discuss code &#39;n&#39; stuff over a
           coffee☕, spritz🍹 or a pizza 🍕
         </h4>
