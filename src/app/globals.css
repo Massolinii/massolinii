@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cousine&display=swap");
 body {
   margin: 0px;
   overflow: hidden;
@@ -13,9 +12,8 @@ body {
   width: auto;
 }
 
-.major {
-  font-family: "Major Mono Display", monospace;
-  font-weight: bold;
+.cousine {
+  font-family: "Cousine", monospace;
 }
 
 #foto-massy {
