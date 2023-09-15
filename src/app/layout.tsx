@@ -1,3 +1,4 @@
+"use client";
 import "./globals.css";
 
 import type { Metadata } from "next";
@@ -23,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-background text-slate-300 flex flex-col h-screen major`}
+        className={`${inter.className} bg-background text-slate-200 flex flex-col h-screen`}
       >
         <div className="flex-shrink-0">
           <Navbar />

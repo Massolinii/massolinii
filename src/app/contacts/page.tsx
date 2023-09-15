@@ -10,7 +10,7 @@ export default function Page() {
             href="https://www.linkedin.com/in/massimiliano-esposito/"
             target="_blank"
             rel="noopener noreferrer"
-            className=" pe-5"
+            className=" px-1"
           >
             Add me on LinkedIn
           </a>
@@ -45,7 +45,7 @@ export default function Page() {
             href="https://github.com/Massolinii"
             target="_blank"
             rel="noopener noreferrer"
-            className="pe-5"
+            className="px-1"
           >
             Follow me on GitHub
           </a>
@@ -66,8 +66,8 @@ export default function Page() {
               gradientUnits="userSpaceOnUse"
               spreadMethod="reflect"
             >
-              <stop offset="0" stop-color="#6dc7ff"></stop>
-              <stop offset="1" stop-color="#e6abff"></stop>
+              <stop offset="0" stopColor="#6dc7ff"></stop>
+              <stop offset="1" stopColor="#e6abff"></stop>
             </linearGradient>
             <path
               fill="url(#KpzH_ttTMIjq8dhx1zD2pa_52539_gr1)"
@@ -82,8 +82,8 @@ export default function Page() {
               gradientUnits="userSpaceOnUse"
               spreadMethod="reflect"
             >
-              <stop offset="0" stop-color="#1a6dff"></stop>
-              <stop offset="1" stop-color="#c822ff"></stop>
+              <stop offset="0" stopColor="#1a6dff"></stop>
+              <stop offset="1" stopColor="#c822ff"></stop>
             </linearGradient>
             <path
               fill="url(#KpzH_ttTMIjq8dhx1zD2pb_52539_gr2)"
@@ -95,8 +95,8 @@ export default function Page() {
 
       <div className="text-center mt-6">
         {" "}
-        <h3 className="text-3xl">Currently based in Milan, Italy</h3>
-        <h4 className="text-1xl my-2">
+        <h3 className="text-3xl mb-8">Currently based in Milan, Italy</h3>
+        <h4 className="text-1xl cousine">
           Ring me up if you want to discuss code &#39;n&#39; stuff over a
           coffee☕, spritz🍹 or a pizza 🍕
         </h4>

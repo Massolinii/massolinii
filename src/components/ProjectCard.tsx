@@ -12,15 +12,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   selectProject,
 }) => (
   <div
-    className="bg-primary rounded-3xl p-4 border-t-4 border-b-8 border-primary-border cursor-pointer h-[400px] flex flex-col"
+    className="bg-primary rounded-3xl p-4 border-t-4 border-b-8 border-primary-border cursor-pointer h-[400px] flex flex-col cousine"
     onClick={() => selectProject(project)}
   >
     <div className="relative rounded-lg overflow-hidden h-[170px] object-cover">
       <Image
         src={project.image}
-        objectFit="cover"
         alt={project.title}
         fill={true}
+        sizes="100% 100%"
+        priority={true}
       />
     </div>
 
