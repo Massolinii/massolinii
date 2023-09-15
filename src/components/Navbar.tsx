@@ -67,7 +67,7 @@ export default function Navbar() {
       {/* Links in modalità mobile (tendina a comparsa) */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-primary border-y-2 border-primary-border z-10">
-          <div className="flex justify-around items-center py-4 text-xs sm:text-base">
+          <div className="flex justify-around items-center py-4">
             <Link href="/" onClick={() => setIsOpen(false)}>
               <p>Home</p>
             </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
       )}
 
       {/* Link GitHub a destra */}
-      <div className="flex justify-end flex-grow pe-5 py-5 border-l-2 border-primary-border text-sm md:text-base">
+      <div className="flex justify-end flex-grow pe-5 py-5 border-l-2 border-primary-border ">
         <Link
           href="https://github.com/Massolinii"
           target="_blank"

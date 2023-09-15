@@ -94,7 +94,7 @@ export default function AboutSkills() {
       <div className="flex flex-col md:flex-row justify-between text-slate-200 gap-5 my-6">
         <div className="md:w-3/5 lg:w-1/2 p-1 border-t-4 border-b-8 border-primary-border rounded-3xl bg-primary">
           <h4 className="text-3xl m-4 ">Frontend</h4>
-          <div className="flex flex-wrap justify-center gap-6 mx-1 cousine">
+          <div className="flex flex-wrap justify-center gap-6 ">
             {frontendSkills.map((skill, index) => (
               <SkillCard
                 key={index}
@@ -107,7 +107,7 @@ export default function AboutSkills() {
         </div>
         <div className="md:w-3/5 lg:w-1/2 border-t-4 border-b-8 border-primary-border rounded-3xl bg-primary">
           <h4 className="text-3xl m-4">Backend</h4>
-          <div className="flex flex-wrap justify-center gap-8 m-1 cousine">
+          <div className="flex flex-wrap justify-center gap-10 ">
             {backendSkills.map((skill, index) => (
               <SkillCard
                 key={index}

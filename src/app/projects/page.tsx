@@ -103,11 +103,11 @@ export default function Page() {
   return (
     <section className="container mx-auto p-4 flex flex-col">
       <h2 className="mx-auto text-center text-4xl m-3">Projects</h2>
-      <h3 className="mx-auto text-center text-2xl m-2 cousine">
+      <h3 className="mx-auto text-center text-2xl m-2">
         Some of my latest favorites projects I have worken on, both alone and in
         team.
       </h3>
-      <h4 className="mx-auto text-center text-xl m-2 mb-10 cousine">
+      <h4 className="mx-auto text-center text-xl m-2 mb-10">
         🚧 Work In Progress to host some on them online 🚧
       </h4>
 
