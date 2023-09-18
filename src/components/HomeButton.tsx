@@ -6,7 +6,7 @@ const HomeButton = () => {
     <div className="flex justify-end my-12">
       <Link
         href="/"
-        className="flex bg-primary p-2 rounded-lg border-2 border-primary-border"
+        className="flex bg-primary hover:bg-primary-transparency p-2 rounded-lg border-2 border-primary-border"
       >
         <p className="ps-1 pt-1 pe-3 font-bold">Go Home</p>
         <svg
