@@ -22,6 +22,7 @@ const projects = [
     image: "/projects/the_game_render.jpeg",
     video: "https://www.youtube.com/watch?v=mepUdTLyuxc",
     github: "https://github.com/Massolinii/theGameRender",
+    link: "",
   },
   {
     id: 2,
@@ -33,6 +34,7 @@ const projects = [
     image: "/projects/chiara.jpg",
     video: "",
     github: "https://github.com/Massolinii/chiara_bonanzinga_estetica",
+    link: "https://chiarabonanzinga.vercel.app",
   },
   {
     id: 3,
@@ -44,6 +46,7 @@ const projects = [
     image: "/projects/weather.png",
     video: "",
     github: "https://github.com/Massolinii/meteo_app",
+    link: "",
   },
   {
     id: 4,
@@ -55,6 +58,7 @@ const projects = [
     image: "/projects/linkedin.jpg",
     video: "",
     github: "https://github.com/Massolinii/linkedin",
+    link: "",
   },
   {
     id: 5,
@@ -66,6 +70,7 @@ const projects = [
     image: "/projects/netflix.jpg",
     video: "",
     github: "https://github.com/Massolinii/netflix",
+    link: "",
   },
   {
     id: 6,
@@ -83,6 +88,7 @@ const projects = [
     image: "/projects/energy.png",
     video: "",
     github: "https://github.com/Massolinii/BuildWeek2_backend",
+    link: "",
   },
 ];
 
@@ -95,6 +101,7 @@ export type Project = {
   image: string;
   video: string;
   github: string;
+  link: string;
 };
 
 export default function Page() {

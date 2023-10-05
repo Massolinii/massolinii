@@ -34,20 +34,20 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
       <p className="text-sm md:text-base lg:text-lg mt-2">
         {project.description}
       </p>
-      <div className="flex gap-2 mt-5 text-center">
-        <a
-          className={`w-${
-            project.video ? "1/2" : "full"
-          } bg-gray-600 text-white py-2 px-4 rounded`}
-          href={project.github}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        {project.video && ( // check if there is a video to show the button
+      <div className="flex gap-2 mt-5 text-center flex-grow">
+        {project.github && (
           <a
-            className="w-1/2 bg-red-900 text-white py-2 px-4 rounded"
+            className="flex-grow bg-gray-600 text-white py-2 px-4 rounded"
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        )}
+        {project.video && (
+          <a
+            className="flex-grow bg-red-900 text-white py-2 px-4 rounded"
             href={project.video}
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +55,18 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
             Video
           </a>
         )}
+        {project.link && (
+          <a
+            className="flex-grow bg-blue-600 text-white py-2 px-4 rounded"
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Link
+          </a>
+        )}
       </div>
+
       <button
         className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
         onClick={deselectProject}
